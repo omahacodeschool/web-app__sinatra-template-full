@@ -1,2 +1,3 @@
-# MyApp.get "/welcome" do
-# end
+MyApp.get "/welcome" do
+  erb :"welcome"
+end
